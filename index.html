@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Mars's Space Explorer</title>
+  </head>
+  <body>
+    <h3>Expedição Marte</h3>
+    
+    <textarea id="input" cols="18" rows="10">5 5&#013;&#010;1 2 N&#013;&#010;LMLMLMLMM&#013;&#010;3 3 E&#013;&#010;MMRMMRMRRM</textarea>
+    <br>
+    <input id="send-command" type="button" value="Enviar comando" />
+    <br>
+
+    <p id="output">
+      <!-- O retorno do processamento vem aqui -->
+    </p>
+
+    <p id="instrucao">
+      <!-- Aqui será exibido os comandos enviados para sonda -->
+    </p>
+
+    <div id="planalto">
+      <!-- A sonda será inserida aqui -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./processador.js"></script>
+  </body>
+</html>
